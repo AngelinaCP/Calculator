@@ -55,7 +55,6 @@ function main() {
         console.log('this is sum', sum);
         numString = ''
         display.innerText = sum;
-        sign = ''
       } else if (item.id === 'sign') {
         sum = sum * (-1);
         display.innerText = sum;
